@@ -35,7 +35,6 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
-  themeColor: "#0074e4",
   other: {
     "fb:app_id": process.env.FACEBOOK_ID as string,
   },

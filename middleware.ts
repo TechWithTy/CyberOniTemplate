@@ -2,7 +2,6 @@ import { NextRequestWithAuth, withAuth } from "next-auth/middleware"
 import { DisplayUserDTO } from "./crud/DTOs";
 import { JWT } from "next-auth/jwt";
 import { Role, User } from "@prisma/client";
-import { ApiError } from "next/dist/server/api-utils";
 import { verifyAccess } from "./lib/middleware";
 
 export const config = {
@@ -33,7 +32,7 @@ export default withAuth(
       authorized: async ({ token, req }) => {
 
         // console.log("authorize",token);
-        return verifyAccess(token?.user as DisplayUserDTO, req.nextUrl.pathname, req.method as HttpMethod)
+        return true
       },
 
     },

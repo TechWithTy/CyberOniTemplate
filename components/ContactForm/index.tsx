@@ -151,9 +151,9 @@ function ContactFormLOC(props: { onModal?: boolean, showModal?: boolean, setShow
               <Send color="white" className="mx-2" />
               <span className="mx-2">Send Message</span>
             </button>
-            <Link onClick={hideModal} href={`/contact?name=${name}&email=${email}&message=${message}`} className="bg-gradient-to-b from-orange-400 to-orange-500 text-center text-white p-4 rounded-lg">
+            {/* <Link onClick={hideModal} href={`/contact?name=${name}&email=${email}&message=${message}`} className="bg-gradient-to-b from-orange-400 to-orange-500 text-center text-white p-4 rounded-lg">
               Enterprise Contact
-            </Link>
+            </Link> */}
           </div>
         </form>
       )}

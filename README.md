@@ -1,6 +1,6 @@
 <a href="https://cybershoptech.com">
-  <img alt="Precedent – Building blocks for your Next project" src="https://cybershoptech.com/opengraph-image">
-  <h1 align="center">Precedent</h1>
+  <img alt="Cyberoni – Building blocks for your Next project" src="https://cybershoptech.com/opengraph-image">
+  <h1 align="center">Cyber oni</h1>
 </a>
 
 <p align="center">
