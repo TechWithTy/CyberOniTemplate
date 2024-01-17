@@ -1,90 +1,82 @@
-<a href="https://cybershoptech.com">
-  <img alt="Cyberoni – Building blocks for your Next project" src="https://cybershoptech.com/opengraph-image">
-  <h1 align="center">Cyber oni</h1>
-</a>
+Template Name
+Description
+Briefly describe the purpose and features of this template.
+Getting Started
+Follow these steps to create a new project using this template:
+1. Create a New Repository:
 
-<p align="center">
-  Building blocks for your Next project
-</p>
+    ◦ Click the "Use this template" button on the template repository page.
 
-<p align="center">
-  <a href="https://twitter.com/steventey">
-    <img src="https://img.shields.io/twitter/follow/steventey?style=flat&label=steventey&logo=twitter&color=0bf&logoColor=fff" alt="Steven Tey Twitter follower count" />
-  </a>
-  <a href="https://github.com/steven-tey/precedent">
-    <img src="https://img.shields.io/github/stars/steven-tey/precedent?label=steven-tey%2Fprecedent" alt="Precedent repo star count" />
-  </a>
-</p>
+    ◦ Enter a name for your new repository based on the template.
+2. Clone the Repository:
+    ◦ Clone the newly created repository to your local machine:
 
-<p align="center">
-  <a href="#introduction"><strong>Introduction</strong></a> ·
-  <a href="#one-click-deploy"><strong>One-click Deploy</strong></a> ·
-  <a href="#tech-stack--features"><strong>Tech Stack + Features</strong></a> ·
-  <a href="#author"><strong>Author</strong></a>
-</p>
-<br/>
+      ```git clone <https://github.com/nehal7-ml/DataDrivenCyberoni-template.git>```
 
-## Introduction
+3. Installation:
+    ◦ Navigate to the project folder:
 
-Precedent is an opinionated collection of components, hooks, and utilities for your Next.js project.
+      ```cd <your-new-repo-name>```
 
-## One-click Deploy
+    ◦ Install dependencies:
 
-You can deploy this template to Vercel with the button below:
+        npm install
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsteven-tey%2Fprecedent&project-name=precedent&repository-name=precedent&demo-title=Precedent&demo-description=An%20opinionated%20collection%20of%20components%2C%20hooks%2C%20and%20utilities%20for%20your%20Next%20project.&demo-url=https%3A%2F%2Fcybershoptech.com&demo-image=https%3A%2F%2Fcybershoptech.com%2Fopengraph-image&env=GOOGLE_CLIENT_ID,GOOGLE_CLIENT_SECRET,NEXTAUTH_SECRET&envDescription=How%20to%20get%20these%20env%20variables%3A&envLink=https%3A%2F%2Fgithub.com%2Fsteven-tey%2Fprecedent%2Fblob%2Fmain%2F.env.example&stores=%5B%7B"type"%3A"postgres"%7D%5D)
+4. Configuration:
 
-You can also clone & create this repo locally with the following command:
+    1. Configure any project-specific settings, such as environment variables or API keys, in the appropriate configuration files.  
 
-```bash
-npx create-next-app precedent --example "https://github.com/steven-tey/precedent"
-```
+    2. add Planetscale databse url
+        
+        ```DATABASE_URL_MAIN=mysql://<username>:<password>@aws.connect.psdb.cloud/<Database_Name>?sslaccept=strict```
+    3. add sendgrid keys
+    
+        ```
+        ## sengrid credentials for contact forms
+        SENDGRID_API_KEY=
+        ## list name to add contact to
+        SENDGRID_LIST=
+        SENDGRID_EMAIL=
+        # recieves contact form messages
+        CONTACT_EMAIL=
+        ```
+    
+    
 
-## Tech Stack + Features
+Usage
+Explain how to use the template in a new project:
+1. Development:
+    ◦ Start the development server:
 
-https://user-images.githubusercontent.com/28986134/212368288-12f41e37-aa8c-4e0a-a542-cf6d23410a65.mp4
+bashCopy codenpm run dev
 
-### Frameworks
+2. Production Build:
+    ◦ Create a production-ready build:
 
-- [Next.js](https://nextjs.org/) – React framework for building performant apps with the best developer experience
-- [Auth.js](https://authjs.dev/) – Handle user authentication with ease with providers like Google, Twitter, GitHub, etc.
-- [Prisma](https://www.prisma.io/) – Typescript-first ORM for Node.js
+    ```npm run build```
 
-### Platforms
+3. Testing:
+    ◦ Run tests (if applicable):
 
-- [Vercel](https://vercel.com/) – Easily preview & deploy changes with git
-- [Vercel Postgres](https://vercel.com/postgres) – Serverless Postgres at the Edge
+    ```npm test```
 
-### UI
-
-- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework for rapid UI development
-- [Radix](https://www.radix-ui.com/) – Primitives like modal, popover, etc. to build a stellar user experience
-- [Framer Motion](https://framer.com/motion) – Motion library for React to animate components with ease
-- [Lucide](https://lucide.dev/) – Beautifully simple, pixel-perfect icons
-- [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) – Optimize custom fonts and remove external network requests for improved performance
-- [`ImageResponse`](https://beta.nextjs.org/docs/api-reference/image-response) – Generate dynamic Open Graph images at the edge
-- [`react-wrap-balancer`](https://github.com/shuding/react-wrap-balancer) – Simple React component that makes titles more readable
-
-### Hooks and Utilities
-
-- `useIntersectionObserver` –  React hook to observe when an element enters or leaves the viewport
-- `useLocalStorage` – Persist data in the browser's local storage
-- `useScroll` – React hook to observe scroll position ([example](https://github.com/steven-tey/precedent/blob/main/components/layout/navbar.tsx#L12))
-- `nFormatter` – Format numbers with suffixes like `1.2k` or `1.2M`
-- `capitalize` – Capitalize the first letter of a string
-- `truncate` – Truncate a string to a specified length
-- [`use-debounce`](https://www.npmjs.com/package/use-debounce) – Debounce a function call / state update
-
-### Code Quality
-
-- [TypeScript](https://www.typescriptlang.org/) – Static type checker for end-to-end typesafety
-- [Prettier](https://prettier.io/) – Opinionated code formatter for consistent code style
-- [ESLint](https://eslint.org/) – Pluggable linter for Next.js and TypeScript
-
-### Miscellaneous
-
-- [Vercel Analytics](https://vercel.com/analytics) – Track unique visitors, pageviews, and more in a privacy-friendly way
-
-## Author
-
-- Steven Tey ([@steventey](https://twitter.com/steventey))
+4. Deployment:
+    ◦ Deploy your project to the desired hosting platform (e.g., Vercel, Netlify, etc.).
+Customization
+Explain how users can customize and extend the template:
+1. Adding Components:
+    ◦ Add custom components or modify existing ones in the src/components directory.
+2. Styling:
+    ◦ Customize the styles using the provided CSS framework (e.g., Tailwind CSS).
+3. Data Management:
+    ◦ Implement data management solutions like Prisma for your specific needs.
+Contributing
+Explain how others can contribute to the template:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: git checkout -b feature-name.
+3. Make your changes and commit them.
+4. Push to your fork and submit a pull request.
+License
+This template is open-source and available under the MIT License.
+Acknowledgments
+Give credit to any third-party libraries, components, or resources used in the template.
