@@ -1,8 +1,6 @@
-Template Name
-Description
-Briefly describe the purpose and features of this template.
-Getting Started
-Follow these steps to create a new project using this template:
+
+# Getting Started
+## Follow these steps to create a new project using this template:
 1. Create a New Repository:
 
     ◦ Click the "Use this template" button on the template repository page.
@@ -40,11 +38,8 @@ Follow these steps to create a new project using this template:
         # recieves contact form messages
         CONTACT_EMAIL=
         ```
-    
-    
 
-Usage
-Explain how to use the template in a new project:
+## Usage
 1. Development:
     ◦ Start the development server:
 
