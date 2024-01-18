@@ -48,7 +48,7 @@ Explain how to use the template in a new project:
 1. Development:
     ◦ Start the development server:
 
-bashCopy codenpm run dev
+        npm run dev
 
 2. Production Build:
     ◦ Create a production-ready build:
