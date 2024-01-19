@@ -9,7 +9,7 @@
 2. Clone the Repository:
     ◦ Clone the newly created repository to your local machine:
 
-      ```git clone <https://github.com/nehal7-ml/DataDrivenCyberoni-template.git>```
+      ```git clone https://github.com/nehal7-ml/DataDrivenCyberoni-template.git```
 
 3. Installation:
     ◦ Navigate to the project folder:
