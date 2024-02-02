@@ -9,7 +9,7 @@
 2. Clone the Repository:
     ◦ Clone the newly created repository to your local machine:
 
-      ```git clone https://github.com/nehal7-ml/DataDrivenCyberoni-template.git```
+      ```git clone https://github.com/TechWithTy/CyberOniTemplate.git```
 
 3. Installation:
     ◦ Navigate to the project folder:
@@ -24,7 +24,7 @@
 
     1. Configure any project-specific settings, such as environment variables or API keys, in the appropriate configuration files.  
 
-    2. add Planetscale databse url
+    2. add Planetscale database url
         
         ```DATABASE_URL_MAIN=mysql://<username>:<password>@aws.connect.psdb.cloud/<Database_Name>?sslaccept=strict```
     3. add sendgrid keys
@@ -38,7 +38,15 @@
         # recieves contact form messages
         CONTACT_EMAIL=
         ```
+        Use a email with inbox you have access to for CONTACT_EMAIL as you
+        will receive email here
 
+        create List in Sendgrid Contact list with unquie name and use this for SENDGRID_LIST
+
+    4. Create Notion table for storing contact information in a database
+
+        create table withe the following Columns:
+            1. 
 ## Usage
 1. Development:
     ◦ Start the development server:
@@ -57,21 +65,20 @@
 
 4. Deployment:
     ◦ Deploy your project to the desired hosting platform (e.g., Vercel, Netlify, etc.).
-Customization
-Explain how users can customize and extend the template:
+    ##### Example Vercel: 
+## Customization
+
 1. Adding Components:
     ◦ Add custom components or modify existing ones in the src/components directory.
 2. Styling:
     ◦ Customize the styles using the provided CSS framework (e.g., Tailwind CSS).
 3. Data Management:
     ◦ Implement data management solutions like Prisma for your specific needs.
-Contributing
-Explain how others can contribute to the template:
+## Contributing
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix: git checkout -b feature-name.
 3. Make your changes and commit them.
 4. Push to your fork and submit a pull request.
-License
+### License
 This template is open-source and available under the MIT License.
-Acknowledgments
-Give credit to any third-party libraries, components, or resources used in the template.
+### Acknowledgments
