@@ -30,12 +30,12 @@ export async function processStripeEvent(event: stripe.Event) {
 }
 
 
-export async function createPaymentIntent({ price, description, metadata }: { price: number, description: string, metadata?: Record<string, string> }) {
+export async function createPaymentIntent({ price,currency, description, metadata }: { price: number, currency: string , description: string, metadata?: Record<string, string> }) {
 
     const paymentIntent = await client.paymentIntents.create({
 
         amount: price!,
-        currency: "usd",
+        currency: currency,
         description: description,
         metadata: metadata,
         payment_method_types: [

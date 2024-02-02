@@ -78,7 +78,20 @@
         CLOUD_API_KEY=
         ```
     5. Use Stripe CheckOut form : 
+        add the folwwoing env variables to use Stripe CheckOut with Buy-now pay-later:
+
+        ```
+            #stripe
+            NEXT_PUBLIC_STRIPE_KEY=
+            STRIPE_API_KEY=
+        ```
+
+        create a payment intent with api POST request to `/api/stripe/client-secret` with body with type definition 
+        `{price :number, currency: string, description :string, metadata: Record<string, string>}`
         
+        price will be number for example for $ 10 `{price: 1000, currency:'usd'}`
+
+        this secret can be pass to the paymentModal/CheckoutForm Component
 
 ## Usage
 1. Development:
