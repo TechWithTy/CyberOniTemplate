@@ -1,3 +1,39 @@
+# Frameworks
+- **[Next.js](https://nextjs.org/)** – React framework for building performant apps with the best developer experience
+- **[NextAuth.js](https://next-auth.js.org/)** – Authentication library for Next.js applications
+
+# Platforms
+- **[Vercel](https://vercel.com/)** – Easily preview & deploy changes with git
+- **[PlanetScale](https://www.planetscale.com/)** – The world’s most advanced MySQL platform
+
+# UI
+- **[Tailwind CSS](https://tailwindcss.com/)** – Utility-first CSS framework for rapid UI development
+- **[Radix](https://radix-ui.com/)** – Primitives like modal, popover, etc. to build a stellar user experience
+- **[Framer Motion](https://www.framer.com/motion/)** – Motion library for React to animate components with ease
+- **[Lucide](https://lucide.dev/)** – Beautifully simple, pixel-perfect icons
+- **[next/font](https://nextjs.org/docs/api-reference/fonts)** – Optimize custom fonts and remove external network requests for improved performance
+- **[ImageResponse](https://imageresponse.dev/)** – Generate dynamic Open Graph images at the edge
+
+# Hooks and Utilities
+- **[useIntersectionObserver](https://reactjs.org/docs/hooks-reference.html#useintersectionobserver)** – React hook to observe when an element enters or leaves the viewport
+- **[useLocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)** – Persist data in the browser's local storage
+- **[useScroll](https://github.com/zzarcon/use-scroll)** – React hook to observe scroll position (example)
+- **[nFormatter](https://github.com/taylorhakes/numfmt)** – Format numbers with suffixes like 1.2k or 1.2M
+- **[capitalize](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)** – Capitalize the first letter of a string
+- **[truncate](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr)** – Truncate a string to a specified length
+- **[use-debounce](https://usehooks.com/useDebounce/)** – Debounce a function call / state update
+
+# Code Quality
+- **[TypeScript](https://www.typescriptlang.org/)** – Static type checker for end-to-end typesafety
+- **[Prettier](https://prettier.io/)** – Opinionated code formatter for consistent code style
+- **[ESLint](https://eslint.org/)** – Pluggable linter for Next.js and TypeScript
+
+
+# Code Quality
+- **[TypeScript](https://www.typescriptlang.org/)** – Static type checker for end-to-end typesafety
+- **[Prettier](https://prettier.io/)** – Opinionated code formatter for consistent code style
+- **[ESLint](https://eslint.org/)** – Pluggable linter for Next.js and TypeScript
+
 
 # Getting Started
 ## Follow these steps to create a new project using this template:
