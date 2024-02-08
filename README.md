@@ -15,6 +15,7 @@
 - **[ImageResponse](https://imageresponse.dev/)** – Generate dynamic Open Graph images at the edge
 
 # Hooks and Utilities
+# Utilities
 - **[useIntersectionObserver](https://reactjs.org/docs/hooks-reference.html#useintersectionobserver)** – React hook to observe when an element enters or leaves the viewport
 - **[useLocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)** – Persist data in the browser's local storage
 - **[useScroll](https://github.com/zzarcon/use-scroll)** – React hook to observe scroll position (example)
@@ -22,6 +23,10 @@
 - **[capitalize](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)** – Capitalize the first letter of a string
 - **[truncate](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr)** – Truncate a string to a specified length
 - **[use-debounce](https://usehooks.com/useDebounce/)** – Debounce a function call / state update
+- **[SendGrid](https://sendgrid.com/)** – Email delivery platform for sending transactional and marketing emails
+- **[Cloudinary](https://cloudinary.com/)** – Media management platform for images and videos
+- **[Notion](https://www.notion.so/)** – Collaboration platform for organizing and managing documents, databases, and tasks
+
 
 # Code Quality
 - **[TypeScript](https://www.typescriptlang.org/)** – Static type checker for end-to-end typesafety
