@@ -15,7 +15,6 @@
 - **[ImageResponse](https://imageresponse.dev/)** – Generate dynamic Open Graph images at the edge
 
 # Hooks and Utilities
-# Utilities
 - **[useIntersectionObserver](https://reactjs.org/docs/hooks-reference.html#useintersectionobserver)** – React hook to observe when an element enters or leaves the viewport
 - **[useLocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)** – Persist data in the browser's local storage
 - **[useScroll](https://github.com/zzarcon/use-scroll)** – React hook to observe scroll position (example)
