@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import Section, { SectionProps } from "@/components/home/HomeSection";
 import CompanyCarousel, { Company } from "@/components/home/CompanyCarousel";
@@ -11,9 +10,7 @@ import { companies, homeSections, sildes } from "@/data/homeData";
 import Link from "next/link";
 import VideoModal from "@/components/home/VideoModal";
 export default async function Home() {
-  return (
-    <>
-      <div className="z-30 w-full dark:text-white lg:px-10">
+  return <>     <div className="z-30 w-full dark:text-white lg:px-10">
         <section className="container mx-auto flex flex-col text-center lg:text-left">
           <div className="flex flex-col-reverse items-center justify-center lg:flex-row">
             <div className="flex flex-col items-center justify-center lg:items-start lg:justify-start ">
@@ -69,9 +66,8 @@ export default async function Home() {
                 key={index}
                 linkTo={item.linkTo}
               ></Section>
-            </div>
-          );
-        })}
+            </div>     );
+       })}
 
         <section className="container mx-auto text-center">
           <h2 className="  m-3 w-fit bg-gradient-purple bg-clip-text text-3xl font-bold text-transparent">
@@ -148,10 +144,5 @@ export default async function Home() {
             ></Image>
           </div>
         </section>
-      </div>
-    </>
-  );
+      </div></>;
 }
-
-
-
